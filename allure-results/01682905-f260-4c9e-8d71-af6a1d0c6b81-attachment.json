@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "#authentication-portal > div > div > div > div > div > form > div.MuiFormControl-root.MuiTextField-root.email.empty.error > div"
-}

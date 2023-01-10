@@ -1,6 +1,6 @@
 @feature1
 Feature: Tommy Fake Login
-
+  @failcase1
   Scenario Outline: Verify Wrong Email Login
 
     Given I am on the login page
@@ -12,7 +12,7 @@ Feature: Tommy Fake Login
     Examples:
       | username                 | password              | message                                |
       | doruktaskin89            | SuperSecretPassword!  | Sorry, dit is geen geldig e-mailadres  |
-
+  @failcase2
   Scenario Outline: Verify Not Matching Login
     Given I want to navigate to login page
     When I login with <username> and <password>

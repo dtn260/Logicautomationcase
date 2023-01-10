@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#signin-email\"}\n  (Session info: chrome=108.0.5359.125)",
-  "stacktrace": "Backtrace:\n\t(No symbol) [0x00E5F243]\n\t(No symbol) [0x00DE7FD1]\n\t(No symbol) [0x00CDD04D]\n\t(No symbol) [0x00D0C0B0]\n\t(No symbol) [0x00D0C22B]\n\t(No symbol) [0x00D3E612]\n\t(No symbol) [0x00D285D4]\n\t(No symbol) [0x00D3C9EB]\n\t(No symbol) [0x00D28386]\n\t(No symbol) [0x00D0163C]\n\t(No symbol) [0x00D0269D]\n\tGetHandleVerifier [0x010F9A22+2655074]\n\tGetHandleVerifier [0x010ECA24+2601828]\n\tGetHandleVerifier [0x00F08C0A+619850]\n\tGetHandleVerifier [0x00F07830+614768]\n\t(No symbol) [0x00DF05FC]\n\t(No symbol) [0x00DF5968]\n\t(No symbol) [0x00DF5A55]\n\t(No symbol) [0x00E0051B]\n\tBaseThreadInitThunk [0x756800F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77157BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77157B8E+238]\n"
-}
