@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673052016125' stop='1673052016129'>
+    <name>New Login Feature: Verify Good Login</name>
+    <title>New Login Feature: Verify Good Login</title>
+    <test-cases>
+        <test-case start='1673052016126' status='passed' stop='1673052016127'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673052016127' status='broken' stop='1673052016128'>
+            <name>Given I want to navigate to website"https://nl.tommy.com/"</name>
+            <title>Given I want to navigate to website"https://nl.tommy.com/"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I want to navigate to website"https://nl.tommy.com/"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I want to navigate to website"https://nl.tommy.com/"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\cansu\OneDrive\Belgeler\ts-codes\features\newlogin.feature):1:1
+                	at Scenario(Verify Good Login):2:3
+                	at Step(I want to navigate to website"https://nl.tommy.com/"):3:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673052016128' status='passed' stop='1673052016129'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673087045419' stop='1673087048397'>
+    <name>New Login Feature: Verify Good Login</name>
+    <title>New Login Feature: Verify Good Login</title>
+    <test-cases>
+        <test-case start='1673087045421' status='passed' stop='1673087045425'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673087045426' status='passed' stop='1673087048329'>
+            <name>Given I want to navigate to website "https://nl.tommy.com/"</name>
+            <title>Given I want to navigate to website "https://nl.tommy.com/"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673087045429' status='passed' stop='1673087048328'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a0ade9a1-b672-4bd8-960a-1257bc73a646-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673087048330' status='broken' stop='1673087048395'>
+            <name>When I login with username and password</name>
+            <title>When I login with username and password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673087048334' status='broken' stop='1673087048395'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='22ebad89-03ea-4ede-8e3a-86b79ecdd7b0-attachment.json' type='application/json' size='168'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: no such window: target window already closed</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=108.0.5359.125)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async World.&lt;anonymous> (file:///C:/Users/cansu/OneDrive/Belgeler/ts-codes/features/steps/login-steps.ts:16:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673087048395' status='passed' stop='1673087048396'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

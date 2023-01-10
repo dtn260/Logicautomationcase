@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673053500736' stop='1673053503436'>
+    <name>New Login Feature: Verify Good Login</name>
+    <title>New Login Feature: Verify Good Login</title>
+    <test-cases>
+        <test-case start='1673053500738' status='passed' stop='1673053500741'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673053500741' status='passed' stop='1673053503433'>
+            <name>Given I want to navigate to website "https://nl.tommy.com/"</name>
+            <title>Given I want to navigate to website "https://nl.tommy.com/"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673053500746' status='passed' stop='1673053503431'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b2f92e98-b7e5-489e-a9c1-30902cb03743-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673053503433' status='broken' stop='1673053503434'>
+            <name>When I login with &lt;newusername> and &lt;newpassword></name>
+            <title>When I login with &lt;newusername> and &lt;newpassword></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I login with &lt;newusername> and &lt;newpassword>" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I login with &lt;newusername> and &lt;newpassword>" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\cansu\OneDrive\Belgeler\ts-codes\features\newlogin.feature):1:1
+                	at Scenario(Verify Good Login):3:3
+                	at Step(I login with &lt;newusername> and &lt;newpassword>):5:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673053503434' status='passed' stop='1673053503435'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

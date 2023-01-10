@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > header > div.header__tab-actions_1qMxt > div > div.flex-row.actions_3bqPF > span.desktop-width-layout > button\"}\n  (Session info: chrome=108.0.5359.125)",
+  "stacktrace": "Backtrace:\n\t(No symbol) [0x00D9F243]\n\t(No symbol) [0x00D27FD1]\n\t(No symbol) [0x00C1D04D]\n\t(No symbol) [0x00C4C0B0]\n\t(No symbol) [0x00C4C22B]\n\t(No symbol) [0x00C7E612]\n\t(No symbol) [0x00C685D4]\n\t(No symbol) [0x00C7C9EB]\n\t(No symbol) [0x00C68386]\n\t(No symbol) [0x00C4163C]\n\t(No symbol) [0x00C4269D]\n\tGetHandleVerifier [0x01039A22+2655074]\n\tGetHandleVerifier [0x0102CA24+2601828]\n\tGetHandleVerifier [0x00E48C0A+619850]\n\tGetHandleVerifier [0x00E47830+614768]\n\t(No symbol) [0x00D305FC]\n\t(No symbol) [0x00D35968]\n\t(No symbol) [0x00D35A55]\n\t(No symbol) [0x00D4051B]\n\tBaseThreadInitThunk [0x756800F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77157BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77157B8E+238]\n"
+}

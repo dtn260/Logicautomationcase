@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673054268422' stop='1673054275831'>
+    <name>New Login Feature: Verify Good Login</name>
+    <title>New Login Feature: Verify Good Login</title>
+    <test-cases>
+        <test-case start='1673054268424' status='passed' stop='1673054268426'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673054268427' status='passed' stop='1673054271497'>
+            <name>Given I want to navigate to website "https://nl.tommy.com/"</name>
+            <title>Given I want to navigate to website "https://nl.tommy.com/"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673054268431' status='passed' stop='1673054271495'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ffde1767-9ce2-47b3-bfbb-10ff6bac4a38-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673054271498' status='broken' stop='1673054275829'>
+            <name>When I login with username and password</name>
+            <title>When I login with username and password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673054271502' status='passed' stop='1673054271536'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6d896b63-b346-4f9d-bbad-437bdc777c4a-attachment.json' type='application/json' size='168'/>
+                        <attachment title='Response' source='2511cfec-566b-4830-a402-b8c3d7c1b29c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673054271548' status='broken' stop='1673054275829'>
+                    <name>POST /session/:sessionId/element/8d511fda-6ce9-4d63-8aca-ce2758cbc922/click</name>
+                    <title>POST /session/:sessionId/element/8d511fda-6ce9-4d63-8aca-ce2758cbc922/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: element click intercepted: Element &lt;button class="header__link_NElNw header__action_1N9Tu account__icon_2qLVr" type="button" data-testid="sign-in-button">...&lt;/button> is not clickable at point (825, 76). Other element would receive the click: &lt;div class="ReactModal__Overlay--after-open ReactModal__Overlay-custom__SESv ReactModal__Overlay--no-animation_24Ep_ ReactModal__Overlay--transparent_31fpl ReactModal__Overlay--cookie_RgH9b">...&lt;/div></message>
+                <stack-trace>element click intercepted: element click intercepted: Element &lt;button class="header__link_NElNw header__action_1N9Tu account__icon_2qLVr" type="button" data-testid="sign-in-button">...&lt;/button> is not clickable at point (825, 76). Other element would receive the click: &lt;div class="ReactModal__Overlay--after-open ReactModal__Overlay-custom__SESv ReactModal__Overlay--no-animation_24Ep_ ReactModal__Overlay--transparent_31fpl ReactModal__Overlay--cookie_RgH9b">...&lt;/div>
+                  (Session info: chrome=108.0.5359.125)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673054275829' status='passed' stop='1673054275830'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
